@@ -1,4 +1,4 @@
-# OOPS Wrapper – Staff Management System
+# OOPS Wrapper – Staff Management System (Python Project)
 
 ## Project Overview
 
