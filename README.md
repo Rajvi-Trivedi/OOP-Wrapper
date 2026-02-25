@@ -1,28 +1,25 @@
-# OOPS Wrapper – Staff Management System (Python Project)
+# Staff Management System (OOP Implementation in Python)
 
 ## Project Overview
 
-OOPS Wrapper is a console-based Python application developed to demonstrate Object-Oriented Programming (OOP) principles through a structured staff management system.
+This project is a console-based Staff Management System built to demonstrate advanced Object-Oriented Programming (OOP) concepts in Python.
 
-The project models a real-world organizational hierarchy using classes, inheritance, encapsulation, polymorphism, and operator overloading. It provides an interactive menu-driven interface to manage different types of staff members.
+It models a real-world organizational hierarchy using structured class design, inheritance, encapsulation, polymorphism, and operator overloading. The system allows dynamic creation and management of different staff roles through a menu-driven interface.
 
 ---
 
-## Purpose
+## Objective
 
-The objective of this project is to implement and apply advanced OOP concepts, including:
+The project focuses on applying core and advanced OOP principles, including:
 
-* Class and object creation
+* Class and object modeling
 * Encapsulation using private attributes
 * Getter and setter methods
 * Inheritance and subclassing
-* Method overriding
-* Polymorphism
+* Method overriding and polymorphism
 * Operator overloading
-* Destructor implementation
-* Dynamic object management using dictionaries
-
-This project reflects a transition from procedural programming to structured object-oriented system design.
+* Special methods implementation
+* Dynamic object storage using dictionaries
 
 ---
 
@@ -30,23 +27,36 @@ This project reflects a transition from procedural programming to structured obj
 
 ### Base Class: Staff
 
-Represents a general staff member with attributes such as name, age, ID, and pay.
+Represents a general staff member with attributes such as:
 
-Key implementations include:
+* Name
+* Age
+* Staff ID
+* Pay
 
-* Encapsulated attributes (private ID and pay)
-* Getter and setter methods for controlled access
-* Custom string representation
-* Operator overloading for pay comparison
-* Destructor method for object removal notification
+Key implementations:
 
-### Subclasses
+* Private attributes for ID and pay
+* Controlled access via getters and setters
+* Custom string representation (`__str__`)
+* Overloaded comparison operators for salary comparison
+* Destructor method (`__del__`)
 
-Supervisor
-Extends the Staff class by adding division details and overriding display functionality.
+---
 
-Engineer
-Extends the Staff class by introducing skill specialization and customized display behavior.
+### Derived Classes
+
+**Supervisor**
+
+* Extends the Staff class
+* Adds division-level information
+* Overrides display behavior
+
+**Engineer**
+
+* Extends the Staff class
+* Adds skill specialization
+* Customizes output formatting
 
 ---
 
@@ -54,76 +64,65 @@ Extends the Staff class by introducing skill specialization and customized displ
 
 ### Add Staff Members
 
-* Create general staff, supervisors, or engineers
-* Store objects dynamically in a dictionary using unique IDs
+* Create Staff, Supervisor, or Engineer objects
+* Store objects dynamically using unique IDs
 
-### Display Details
+### Display Staff Details
 
-* Retrieve and display staff information based on ID
+* Retrieve and display staff information by ID
 
-### Compare Pay
+### Salary Comparison
 
-* Compare salaries of two staff members
-* Uses overloaded comparison operators for clean logic implementation
+* Compare salaries between two staff members
+* Uses overloaded operators (`__lt__`, `__gt__`, `__eq__`)
 
-### Class Hierarchy Validation
+### Inheritance Validation
 
-* Demonstrates inheritance relationships using subclass checks
+* Demonstrates subclass relationships
 
 ### Exit System
 
-* Controlled program termination
+* Controlled application termination
 
 ---
 
-## Technical Concepts Applied
+## Technical Implementation
 
-* Object-Oriented Programming principles
 * Encapsulation with private attributes
 * Inheritance and method overriding
 * Polymorphism
-* Operator overloading (`__eq__`, `__lt__`, `__gt__`)
+* Operator overloading
 * Special methods (`__str__`, `__del__`)
-* Dictionary-based object storage
-* Interactive menu-driven architecture
+* Dictionary-based object management
+* Menu-driven console architecture
 
 ---
 
-## Project Significance
+## Engineering Highlights
 
-This project demonstrates strong understanding of structured OOP design and real-world class modeling.
-
-It showcases:
-
-* Clean class hierarchy implementation
-* Reusable and extendable design
-* Logical data encapsulation
-* Comparison logic abstraction
-* Practical application of advanced Python features
-
-The system serves as a foundational model for enterprise-level staff or employee management systems.
+* Clean and extendable class hierarchy
+* Logical separation of responsibilities
+* Reusable object-oriented structure
+* Practical modeling of organizational roles
+* Abstraction of comparison logic
 
 ---
 
-## Future Enhancements
+## Potential Enhancements
 
-The system can be further improved by:
-
-* Adding input validation and exception handling
-* Implementing file or database persistence
-* Introducing role-based access control
-* Modularizing into separate files
-* Building a GUI or web-based interface
-* Integrating reporting and analytics features
+* Add structured input validation
+* Implement file or database persistence
+* Introduce role-based access control
+* Modularize into multiple Python files
+* Build GUI or web interface
+* Add reporting and analytics features
 
 ---
 
 ## Author
 
-Developed as part of advanced Python practice focusing on Object-Oriented Programming design and structured system implementation.
+Rajvi Trivedi
+Data Analyst | Business Analyst
 
 ---
 
-
-
-Tell me what you want next 🚀
